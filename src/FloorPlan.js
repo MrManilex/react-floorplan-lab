@@ -8,16 +8,15 @@ function FloorPlan(props) {
     <>
       <main>
         <Bedroom bedNum={1}/>
-        <div>
+        <div id='kitchen'>
           <Kitchen />
         </div>
         <Bath size='Full'/>
-        <div>
+        <div id='living-room'>
           <LivingRoom />
         </div>
         <Bedroom bedNum={2}/>
         <Bath size='Half'/>
-        <Bath size='Quarter'/>
         <Bedroom bedNum={3}/>
       </main>
     </>
