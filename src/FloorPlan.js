@@ -7,18 +7,18 @@ function FloorPlan(props) {
   return (
     <>
       <main>
-      <Bedroom bedNum={1}/>
-      <div>
-        <Kitchen />
-      </div>
-      <Bath size='Full'/>
-      <div>
-        <LivingRoom />
-      </div>
-      <Bedroom bedNum={2}/>
-      <Bath size='Half'/>
-      <Bath size='Quarter'/>
-      <Bedroom bedNum={3}/>
+        <Bedroom bedNum={1}/>
+        <div>
+          <Kitchen />
+        </div>
+        <Bath size='Full'/>
+        <div>
+          <LivingRoom />
+        </div>
+        <Bedroom bedNum={2}/>
+        <Bath size='Half'/>
+        <Bath size='Quarter'/>
+        <Bedroom bedNum={3}/>
       </main>
     </>
   )
