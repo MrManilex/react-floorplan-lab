@@ -1,7 +1,7 @@
 // import Baths from './Baths.js'
 // import Bedrooms from './Bedrooms.js'
 import Kitchen from './Kitchen.js'
-// import LivingRoom from './LivingRoom.js'
+import LivingRoom from './LivingRoom.js'
 
 
 
@@ -11,11 +11,11 @@ function FloorPlan(props) {
       <div>
         <Kitchen />
       </div>
-      {/* <div>
+      <div>
         <LivingRoom />
       </div>
-      <Baths />
-      <Bedrooms /> */}
+      {/* <Baths /> */}
+      {/* <Bedrooms /> */}
     </>
   )
 }
