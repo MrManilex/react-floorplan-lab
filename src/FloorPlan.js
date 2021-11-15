@@ -6,6 +6,7 @@ import LivingRoom from './LivingRoom.js'
 function FloorPlan(props) {
   return (
     <>
+      <main>
       <Bedroom bedNum={1}/>
       <div>
         <Kitchen />
@@ -18,6 +19,7 @@ function FloorPlan(props) {
       <Bath size='Half'/>
       <Bath size='Quarter'/>
       <Bedroom bedNum={3}/>
+      </main>
     </>
   )
 }

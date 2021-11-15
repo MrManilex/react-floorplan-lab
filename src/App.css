@@ -2,4 +2,10 @@ div {
   border: 1px solid grey;
   margin: 5px;
   padding: 5px;
+  /* display: grid; */
+}
+main{
+  display: grid;
+  grid-template-columns: repeat(5,minmax(0,1fr));
+  grid-template-rows: repeat(5,minmax(0,1fr));
 }
