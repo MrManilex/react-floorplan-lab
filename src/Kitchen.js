@@ -5,10 +5,10 @@ function Kitchen(props){
   return(
     <>
       <h1>Kitchen</h1>
-      <div>
+      <div id='oven'>
         <Oven />
       </div>
-      <div>
+      <div id='sink'>
         <Sink />
       </div>
     </>
